@@ -17,6 +17,7 @@
   "devDependencies": {
     "@midwayjs/cli": "^1.2.90",
     "@midwayjs/mock": "^3.0.0",
+    "@midwayjs/typeorm": "^3.4.4",
     "@types/jest": "^26.0.10",
     "@types/koa": "^2.13.4",
     "@types/node": "^18.7.23",

@@ -32,7 +32,7 @@ class UserEntity {
         comment: '手机号',
         length: 20,
     })
-    phone: number;
+    phone: string;
 
     @Column('varchar', {
         name: 'email',
@@ -40,7 +40,7 @@ class UserEntity {
         comment: '邮箱',
         length: 20,
     })
-    email: number;
+    email: string;
     @Column('varchar', {
         name: 'last_login_time',
         nullable: false,
