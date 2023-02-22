@@ -3,12 +3,8 @@ import { DataSource } from 'typeorm';
 import { UserEntity } from '../entity/user.entity'
 
 export const dataSource = new DataSource({
-  type: 'mysql',
-  database: 'photo_album',
-  host: '127.0.0.1',
-  port: 3306,
-  username: 'root',
-  password: 'jyylhpllfr',
+  type: 'sqlite',
+  database: 'photo_album.sqlite',
   entities: [UserEntity],
   logging: true,
   synchronize: true,
